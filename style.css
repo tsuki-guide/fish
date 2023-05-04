@@ -1,0 +1,250 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.ear {
+    background-color: #291814;
+    width: fit-content;
+    height: 1.2em;
+    padding-top: 0;
+    display: flex;
+    font-family: monospace;
+    font-size: 1.2em;
+    padding-left: .5em;
+    color: #fff1e8;
+    border-top-right-radius: .2em;
+    border-bottom-left-radius: .5em;
+    position: absolute;
+    top: -1px;
+    right: 0;
+}
+
+.ear img {
+    margin-left: .25em;
+    margin-right: .25em;
+    height: 1.1em;
+    width: auto;
+}
+
+.reward {
+    color: #5f574f;
+    margin-left: .5em;
+}
+
+.paper {
+    background-color: #fff1e8;
+    border-radius: .5em;
+    border: 3px solid #291814;
+    margin-bottom: .3em;
+    position: relative;
+}
+
+.dotted {
+    margin: .2em;
+    border-radius: 1em;
+    border: 3px dashed #ffccaa;
+}
+
+.head {
+    margin: .2em;
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+
+.head p {
+    max-width: calc(70% - 1em);
+    font-family: monospace;
+    color: #5f574f;
+    font-weight: bold;
+    font-size: 1.8em;
+    margin: auto;
+    padding: auto;
+}
+
+.imgcontainer {
+    position: relative;
+    width: 20%;
+    padding-bottom: 20%;
+    border-radius: 50%;
+    background-color: #ffccaa;
+}
+
+.description {
+    margin: .2em;
+    margin-top: 0;
+    background-color: #ffccaa;
+    border-radius: 1em;
+    width: calc(100% - 1.4em);
+    padding: 1em;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+.description pre {
+    font-family: monospace;
+    font-size: 1.2em;
+    padding-bottom: .5em;
+    color: #5f574f;
+}
+
+.icon {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 70%;
+    max-height: 70%;
+    margin: auto;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    background-color: #FFF1E8;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fishcontainer {
+    width: min(100%, 25em);
+    margin: 1em;
+}
+
+#recommendation {
+    margin-top: 1em;
+    font-size: 1em;
+}
+
+pre {
+    color: #000000;
+    font-size: 1.2em;
+    white-space: pre-wrap;
+}
+
+a {
+    color: black;
+    margin-bottom: 1em;
+    font-family: monospace;
+    font-size: 1.4em;
+}
+
+.toplink {
+    margin-bottom: .2em;
+    text-align: center;
+}
+
+@media only screen and (max-width: 300px) {
+    .ear {
+        font-size: .9em;
+    }
+
+    .ear img {
+        height: .9em;
+    }
+
+    .ear {
+        height: 1em;
+    }
+
+    .head p {
+        font-size: 1.4em;
+    }
+
+    .description pre {
+        font-family: monospace;
+        font-size: .9em;
+        color: #5f574f;
+    }
+}
+
+.accordion {
+    background-color: #0000;
+    border-radius: 1em;
+    cursor: pointer;
+    padding: 1rem;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+
+    font-family: monospace;
+    color: #5f574f;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+  
+.active, .accordion:hover {
+    text-decoration-line: underline;
+}
+  
+.accordion:after {
+    content: '\002B';
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+  
+.active:after {
+    content: "\2212";
+}
+  
+.panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+textarea {
+    font-family: monospace;
+    border-radius: .25em;
+    font-size: 1em;
+    padding: .75em;
+    
+    width: calc(100% - 4px - 1.5em);
+    border: 2px solid #5f574f;
+    outline: none;
+}
+
+.submit {
+    border-radius: .5em;
+    width: 100%;
+    outline: none;
+    border: 2px solid #5f574f;
+    font-family: monospace;
+    font-size: 1.5em;
+    background-color: #a28879;
+    color: #fff1e8;
+    text-align: center;
+    margin-bottom: 0em;
+}
+
+.submit:hover {
+    text-decoration-line: underline;
+}
+
+.submit:active {
+    background-color: #5f574f;
+}
+
+select {
+    border: 2px solid #5f574f;
+    font-family: monospace;
+    background-color: #ffccaa;
+    box-shadow: none;
+    outline: none;
+    font-size: 1em;
+}
+
+pre a {
+    color: #5f574f;
+    font-size: 1em;
+}
