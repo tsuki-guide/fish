@@ -1,5 +1,6 @@
 const fishList = getFishList();
 const fishDict = getFishData();
+const nums = ["zero", "one", "two", "three"];
 
 // https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Dice%27s_coefficient
 function getBigrams(str) {
@@ -170,7 +171,7 @@ function bestTime(fishes) {
         output = `<pre id="recommendation">Good fishing times:</pre>`;
         suggestions = `<pre id="recommendation">Good fishing times:</pre>`
         for (let i = 0; i < Math.min(3, times.length); i++) {
-            //time slots
+            var width = nums[times[i][2].length];
             locations = ""
             for (let j = 0; j < times[i][1].length; j++) {
                 //locations
@@ -180,14 +181,12 @@ function bestTime(fishes) {
                     f = times[i][3][loc][k];
                     images +=  `<div class="fishrow"><div><div class="imgcontainer2">
                                     <img src="../assets/${fishDict[f]["img"]}" alt="fish" class="icon">
-                                </div></div><pre>test</pre></div>`;
+                                </div></div><div class="namecontainer"><pre>${f}</pre></div></div>`;
                 }
-                console.log(times[i])
-                console.log(loc)
-                console.log(times[i][3][loc].length)
-                locations += `<div class="locationcard${times[i][3][loc].length != 2? "":" double"}">
+                var size = nums[times[i][3][loc].length] + width
+                locations += `<div class="locationcard ${size}">
                 <pre>${loc}</pre>
-                <div>${images}</div></div>`;
+                <div class="fishrowcontainer">${images}</div></div>`;
             }
             suggestions += `<div class="suggestion">
             <div class="time">
