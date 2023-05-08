@@ -162,15 +162,20 @@ a {
     border-top-left-radius: .5em;
     justify-content: center;
     text-align:left;
-    padding-left: .5em;
-    padding-right: .5em;
-    margin-bottom: 2px;
-    margin-top: -3px;
-    margin-left: -3px;
+    align-items: center;
     background-color: #5f574f;
-    display: inline-block;
+    top: -3px;
+    left: -3px;
+    padding-right: 1em;
+    width: fit-content;
+    height: 1.6em;
+    padding-top: 0;
+    padding-bottom: 2px;
+    display: flex;
+    font-family: monospace;
+    padding-left: .5em;
+    color: #fff1e8;
     position: absolute;
-    height: 1.45em;
 }
 
 .time * {
@@ -318,6 +323,11 @@ a {
     gap: 6px;
     margin: 3px;
     margin-top: 0;
+}
+
+#recommendation {
+    padding-left: .5em;
+    padding-top: .25em;
 }
 
 .oneone, .twotwo, .threethree {
