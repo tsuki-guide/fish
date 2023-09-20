@@ -1,5 +1,5 @@
 function getFishList() {
-    return ['Anchovy', 'Arapaima', 'Barracuda', 'Black Seabass', 'Bluecrab', 'Bumper', 'Cod', 'Dogfish', 'Dusky Batfish', 'Flounder', 'Flying Fish', 'Goliath Grouper', 'Hammerhead Shark', 'Herring', 'Horseshoe Crab', 'Lamprey', 'Lionfish', 'Mackerel', "Man O' War", 'Marlin', 'Moon Jellyfish', 'Moon Wrasse', 'Moray Eel', 'Pelican Eel', 'Pike', 'Pollock', 'Pufferfish', 'Red Snapper', 'Rock Beauty', 'Sand Shark', 'Seahorse', 'Spiny Lobster', 'Spotted Ray', 'Squid', 'Stingray', 'Sunfish', 'Sunken Bag', 'Toadfish', 'Tuna', 'Angelfish', 'Archer Fish', 'Barb', 'Betta', 'Bluegill', 'Caracha', 'Carp', 'Catfish', 'Clown Featherback', 'Crappie', 'Crayfish', 'Electric Eel', 'Flying Fox', 'Gar', 'Ghost Knifefish', 'Giant Catfish', 'Giant Stingray', 'Golden Dorado', 'Grasscarp', 'Largemouth Bass', 'Loach', 'Mahi Mahi', 'Milkfish', 'Minnow', 'Mudskipper', 'Perch', 'Piranha', 'Pleco', 'Porgy', 'River Eel', 'Rosette', 'Salmon', 'Snake Head', 'Tiger Fish', 'Trout', 'Vampire Crab', 'Zander', 'Arrowana', 'Axolotl', 'Banded Shark', 'Butterflyfish', 'Danio', 'Discus', 'Fiddler Crab', 'Flowerhorn', 'Goldfish', 'Gourami', 'Guppy', 'Hermitcrab', 'Kohaku Koi', 'Labeo', 'Lionhead Goldfish', 'Molly', 'Mosquitofish', 'Mud Crab', 'Neon Tetra', 'Oscar', 'Pacu', 'Pondsnail', 'Pumpkin Seed', 'Rockfish', 'Sawfish', 'Scup', 'Shiro-Utsuri Koi', 'Showa Koi', 'Stickleback', 'Sturgeon', 'Tench', 'Tilapia'];
+    return ['Anchovy', 'Arapaima', 'Barracuda', 'Black Seabass', 'Bluecrab', 'Bluetang', 'Bumper', 'Clownfish', 'Cod', 'Coral Shrimp', 'Damsel', 'Dogfish', 'Dusky Batfish', 'Flounder', 'Flying Fish', 'Goliath Grouper', 'Hammerhead Shark', 'Herring', 'Horseshoe Crab', 'Lamprey', 'Lionfish', 'Mackerel', "Man O' War", 'Marlin', 'Moon Jellyfish', 'Moon Wrasse', 'Moray Eel', 'Parrot Fish', 'Pelican Eel', 'Pike', 'Pollock', 'Pufferfish', 'Red Snapper', 'Rock Beauty', 'Sand Shark', 'Seahorse', 'Spiny Lobster', 'Spotted Ray', 'Squid', 'Stingray', 'Sunfish', 'Sunken Bag', 'The Dragon King', 'Toadfish', 'Trigger Fish', 'Tuna', 'Angelfish', 'Archer Fish', 'Bluegill', 'Bull Shark', 'Caracha', 'Carp', 'Catfish', 'Clown Featherback', 'Crappie', 'Electric Eel', 'Gar', 'Ghost Knifefish', 'Giant Catfish', 'Giant Clam', 'Giant Stingray', 'Golden Dorado', 'Grasscarp', 'Largemouth Bass', 'Loach', 'Lungfish', 'Mahi Mahi', 'Milkfish', 'Minnow', 'Mudskipper', 'Perch', 'Piranha', 'Pleco', 'Porgy', 'River Eel', 'Rosette', 'Salmon', 'Snake Head', 'Tiger Fish', 'Trout', 'Vampire Crab', 'Zander', 'Arrowana', 'Axolotl', 'Banded Shark', 'Barb', 'Betta', 'Butterflyfish', 'Crayfish', 'Danio', 'Discus', 'Elephantfish', 'Fiddler Crab', 'Flowerhorn', 'Flying Fox', 'Goldfish', 'Gourami', 'Guppy', 'Hermitcrab', 'Kohaku Koi', 'Labeo', 'Lionhead Goldfish', 'Molly', 'Mosquitofish', 'Mud Crab', 'Neon Tetra', 'Oarfish', 'Oscar', 'Pacu', 'Pondsnail', 'Pumpkin Seed', 'Rockfish', 'Sawfish', 'Scup', 'Shiro-Utsuri Koi', 'Showa Koi', 'Stickleback', 'Sturgeon', 'Tench', 'Tilapia']
 }
 
 function getFishData() {
@@ -7,12 +7,12 @@ function getFishData() {
         "Anchovy": {
             "times_string": {
                 "ocean": "all day",
-                "river": "all day",
+                "river": "-",
                 "pond": "-"
             },
             "times": {
                 "ocean": "111111111111111111111111",
-                "river": "111111111111111111111111",
+                "river": "000000000000000000000000",
                 "pond": "000000000000000000000000"
             },
             "rarity": "Common",
@@ -38,12 +38,12 @@ function getFishData() {
         },
         "Barracuda": {
             "times_string": {
-                "ocean": "5-7pm,9pm",
+                "ocean": "12pm,5-7pm,9pm",
                 "river": "-",
                 "pond": "-"
             },
             "times": {
-                "ocean": "000000000000000001110100",
+                "ocean": "000000000000100001110100",
                 "river": "000000000000000000000000",
                 "pond": "000000000000000000000000"
             },
@@ -54,12 +54,12 @@ function getFishData() {
         },
         "Black Seabass": {
             "times_string": {
-                "ocean": "12am,5am-6pm",
+                "ocean": "all day",
                 "river": "-",
                 "pond": "-"
             },
             "times": {
-                "ocean": "100001111111111111100000",
+                "ocean": "111111111111111111111111",
                 "river": "000000000000000000000000",
                 "pond": "000000000000000000000000"
             },
@@ -70,28 +70,44 @@ function getFishData() {
         },
         "Bluecrab": {
             "times_string": {
-                "ocean": "6-10pm",
+                "ocean": "all day",
                 "river": "-",
-                "pond": "6-10pm"
+                "pond": "-"
             },
             "times": {
-                "ocean": "000000000000000000111110",
+                "ocean": "111111111111111111111111",
                 "river": "000000000000000000000000",
-                "pond": "000000000000000000111110"
+                "pond": "000000000000000000000000"
             },
             "rarity": "Common",
             "worth": "20",
             "bounty": "100",
             "img": "bluecrab.png"
         },
-        "Bumper": {
+        "Bluetang": {
             "times_string": {
-                "ocean": "1-8pm",
+                "ocean": "12am,12pm,6pm-7pm",
                 "river": "-",
                 "pond": "-"
             },
             "times": {
-                "ocean": "000000000000011111111000",
+                "ocean": "100000000000100000110000",
+                "river": "000000000000000000000000",
+                "pond": "000000000000000000000000"
+            },
+            "rarity": "Uncommon",
+            "worth": "50",
+            "bounty": "250",
+            "img": "bluetang.png"
+        },
+        "Bumper": {
+            "times_string": {
+                "ocean": "all day",
+                "river": "-",
+                "pond": "-"
+            },
+            "times": {
+                "ocean": "111111111111111111111111",
                 "river": "000000000000000000000000",
                 "pond": "000000000000000000000000"
             },
@@ -100,21 +116,69 @@ function getFishData() {
             "bounty": "100",
             "img": "bumper.png"
         },
-        "Cod": {
+        "Clownfish": {
             "times_string": {
-                "ocean": "4-8am,1pm,5-11pm",
-                "river": "4-9am,5-11pm",
+                "ocean": "12-1pm,4pm,11pm",
+                "river": "-",
                 "pond": "-"
             },
             "times": {
-                "ocean": "000011111000010001111111",
-                "river": "000011111100000001111111",
+                "ocean": "000000000000110010000001",
+                "river": "000000000000000000000000",
+                "pond": "000000000000000000000000"
+            },
+            "rarity": "Uncommon",
+            "worth": "50",
+            "bounty": "250",
+            "img": "clownfish.png"
+        },
+        "Cod": {
+            "times_string": {
+                "ocean": "all day",
+                "river": "-",
+                "pond": "-"
+            },
+            "times": {
+                "ocean": "111111111111111111111111",
+                "river": "000000000000000000000000",
                 "pond": "000000000000000000000000"
             },
             "rarity": "Common",
             "worth": "20",
             "bounty": "100",
             "img": "cod.png"
+        },
+        "Coral Shrimp": {
+            "times_string": {
+                "ocean": "all day",
+                "river": "-",
+                "pond": "-"
+            },
+            "times": {
+                "ocean": "111111111111111111111111",
+                "river": "000000000000000000000000",
+                "pond": "000000000000000000000000"
+            },
+            "rarity": "Common",
+            "worth": "20",
+            "bounty": "100",
+            "img": "coralshrimp.png"
+        },
+        "Damsel": {
+            "times_string": {
+                "ocean": "all day",
+                "river": "-",
+                "pond": "-"
+            },
+            "times": {
+                "ocean": "111111111111111111111111",
+                "river": "000000000000000000000000",
+                "pond": "000000000000000000000000"
+            },
+            "rarity": "Common",
+            "worth": "20",
+            "bounty": "100",
+            "img": "damsel.png"
         },
         "Dogfish": {
             "times_string": {
@@ -134,13 +198,13 @@ function getFishData() {
         },
         "Dusky Batfish": {
             "times_string": {
-                "ocean": "6pm,9pm-11pm",
-                "river": "7am",
+                "ocean": "6pm,8pm-11pm",
+                "river": "7am,7pm",
                 "pond": "7pm"
             },
             "times": {
-                "ocean": "000000000000000000100111",
-                "river": "000000010000000000000000",
+                "ocean": "000000000000000000101111",
+                "river": "000000010000000000010000",
                 "pond": "000000000000000000010000"
             },
             "rarity": "Rare",
@@ -150,12 +214,12 @@ function getFishData() {
         },
         "Flounder": {
             "times_string": {
-                "ocean": "1am,5am-2pm,11pm",
+                "ocean": "all day",
                 "river": "-",
                 "pond": "-"
             },
             "times": {
-                "ocean": "010001111111111000000001",
+                "ocean": "111111111111111111111111",
                 "river": "000000000000000000000000",
                 "pond": "000000000000000000000000"
             },
@@ -166,12 +230,12 @@ function getFishData() {
         },
         "Flying Fish": {
             "times_string": {
-                "ocean": "2-4pm,10pm-5am",
+                "ocean": "all day",
                 "river": "-",
                 "pond": "-"
             },
             "times": {
-                "ocean": "111111000000001110000011",
+                "ocean": "111111111111111111111111",
                 "river": "000000000000000000000000",
                 "pond": "000000000000000000000000"
             },
@@ -214,28 +278,28 @@ function getFishData() {
         },
         "Herring": {
             "times_string": {
-                "ocean": "1am,10am-1pm",
-                "river": "1am",
-                "pond": "-"
-            },
-            "times": {
-                "ocean": "010000000011110000000000",
-                "river": "010000000000000000000000",
-                "pond": "000000000000000000000000"
-            },
-            "rarity": "Uncommon",
-            "worth": "50",
-            "bounty": "250",
-            "img": "herring.png"
-        },
-        "Horseshoe Crab": {
-            "times_string": {
-                "ocean": "12am-5am,10am-4pm",
+                "ocean": "all day",
                 "river": "-",
                 "pond": "-"
             },
             "times": {
-                "ocean": "111111000011111110000000",
+                "ocean": "111111111111111111111111",
+                "river": "000000000000000000000000",
+                "pond": "000000000000000000000000"
+            },
+            "rarity": "Common",
+            "worth": "20",
+            "bounty": "100",
+            "img": "herring.png"
+        },
+        "Horseshoe Crab": {
+            "times_string": {
+                "ocean": "11pm-5am,10am-4pm",
+                "river": "-",
+                "pond": "-"
+            },
+            "times": {
+                "ocean": "111111000011111110000001",
                 "river": "000000000000000000000000",
                 "pond": "000000000000000000000000"
             },
@@ -246,13 +310,13 @@ function getFishData() {
         },
         "Lamprey": {
             "times_string": {
-                "ocean": "5-6am,8-10am",
-                "river": "-",
+                "ocean": "5-6am,8am-5pm",
+                "river": "10pm-12am",
                 "pond": "-"
             },
             "times": {
-                "ocean": "000001101110000000000000",
-                "river": "000000000000000000000000",
+                "ocean": "000001101111111111000000",
+                "river": "100000000000000000000011",
                 "pond": "000000000000000000000000"
             },
             "rarity": "Rare",
@@ -278,12 +342,12 @@ function getFishData() {
         },
         "Mackerel": {
             "times_string": {
-                "ocean": "12am,8am-2pm",
+                "ocean": "all day",
                 "river": "-",
                 "pond": "-"
             },
             "times": {
-                "ocean": "100000001111111000000000",
+                "ocean": "111111111111111111111111",
                 "river": "000000000000000000000000",
                 "pond": "000000000000000000000000"
             },
@@ -294,12 +358,12 @@ function getFishData() {
         },
         "Man O' War": {
             "times_string": {
-                "ocean": "12-5am",
+                "ocean": "12pm-5am,10-11am,8pm",
                 "river": "-",
                 "pond": "-"
             },
             "times": {
-                "ocean": "111111000000000000000000",
+                "ocean": "111111000011111111111111",
                 "river": "000000000000000000000000",
                 "pond": "000000000000000000000000"
             },
@@ -326,12 +390,12 @@ function getFishData() {
         },
         "Moon Jellyfish": {
             "times_string": {
-                "ocean": "3-7am,3-5pm",
+                "ocean": "3-7am,10am,12pm,3-5pm",
                 "river": "-",
                 "pond": "-"
             },
             "times": {
-                "ocean": "000111110000000111000000",
+                "ocean": "000111110010100111000000",
                 "river": "000000000000000000000000",
                 "pond": "000000000000000000000000"
             },
@@ -342,12 +406,12 @@ function getFishData() {
         },
         "Moon Wrasse": {
             "times_string": {
-                "ocean": "5am,9am,11am,3pm,10pm",
+                "ocean": "all day",
                 "river": "-",
                 "pond": "-"
             },
             "times": {
-                "ocean": "000001000101000100000010",
+                "ocean": "111111111111111111111111",
                 "river": "000000000000000000000000",
                 "pond": "000000000000000000000000"
             },
@@ -358,12 +422,12 @@ function getFishData() {
         },
         "Moray Eel": {
             "times_string": {
-                "ocean": "1-5am",
+                "ocean": "1-5am,10-11am",
                 "river": "12-4am",
                 "pond": "-"
             },
             "times": {
-                "ocean": "011111000000000000000000",
+                "ocean": "011111000011000000000000",
                 "river": "111110000000000000000000",
                 "pond": "000000000000000000000000"
             },
@@ -372,14 +436,30 @@ function getFishData() {
             "bounty": "250",
             "img": "morayeel.png"
         },
-        "Pelican Eel": {
+        "Parrot Fish": {
             "times_string": {
-                "ocean": "12am,1am,3am",
+                "ocean": "6am-7am,10am-11am",
                 "river": "-",
                 "pond": "-"
             },
             "times": {
-                "ocean": "110100000000000000000000",
+                "ocean": "000000110011000000000000",
+                "river": "000000000000000000000000",
+                "pond": "000000000000000000000000"
+            },
+            "rarity": "Rare",
+            "worth": "120",
+            "bounty": "600",
+            "img": "parrotfish.png"
+        },
+        "Pelican Eel": {
+            "times_string": {
+                "ocean": "11pm-1am,3am",
+                "river": "-",
+                "pond": "-"
+            },
+            "times": {
+                "ocean": "110100000000000000000001",
                 "river": "000000000000000000000000",
                 "pond": "000000000000000000000000"
             },
@@ -391,12 +471,12 @@ function getFishData() {
         "Pike": {
             "times_string": {
                 "ocean": "1-6am",
-                "river": "5pm",
+                "river": "12am,2pm,5-8pm,10pm",
                 "pond": "12-5am,2pm"
             },
             "times": {
                 "ocean": "011111100000000000000000",
-                "river": "000000000000000001000000",
+                "river": "100000000000001001111010",
                 "pond": "111111000000001000000000"
             },
             "rarity": "Rare",
@@ -406,12 +486,12 @@ function getFishData() {
         },
         "Pollock": {
             "times_string": {
-                "ocean": "5pm,7pm,23pm",
+                "ocean": "5pm,7pm,10-11pm",
                 "river": "-",
                 "pond": "-"
             },
             "times": {
-                "ocean": "000000000001000001010000",
+                "ocean": "000000000000000001010011",
                 "river": "000000000000000000000000",
                 "pond": "000000000000000000000000"
             },
@@ -422,12 +502,12 @@ function getFishData() {
         },
         "Pufferfish": {
             "times_string": {
-                "ocean": "1-2am,12pm,5-11pm",
+                "ocean": "1-2am,12pm,2pm,5-11pm",
                 "river": "-",
                 "pond": "-"
             },
             "times": {
-                "ocean": "011000000000100001111111",
+                "ocean": "011000000000101001111111",
                 "river": "000000000000000000000000",
                 "pond": "000000000000000000000000"
             },
@@ -438,28 +518,28 @@ function getFishData() {
         },
         "Red Snapper": {
             "times_string": {
-                "ocean": "3-4am,2-5pm",
-                "river": "3-5pm",
-                "pond": "-"
-            },
-            "times": {
-                "ocean": "000110000000001111000000",
-                "river": "000000000000000111000000",
-                "pond": "000000000000000000000000"
-            },
-            "rarity": "Uncommon",
-            "worth": "50",
-            "bounty": "250",
-            "img": "redsnapper.png"
-        },
-        "Rock Beauty": {
-            "times_string": {
-                "ocean": "6-8am,10am,1pm",
+                "ocean": "all day",
                 "river": "-",
                 "pond": "-"
             },
             "times": {
-                "ocean": "000000111010010000000000",
+                "ocean": "111111111111111111111111",
+                "river": "000000000000000000000000",
+                "pond": "000000000000000000000000"
+            },
+            "rarity": "Common",
+            "worth": "20",
+            "bounty": "100",
+            "img": "redsnapper.png"
+        },
+        "Rock Beauty": {
+            "times_string": {
+                "ocean": "12am,6-8am,10am,1pm",
+                "river": "-",
+                "pond": "-"
+            },
+            "times": {
+                "ocean": "100000111010010000000000",
                 "river": "000000000000000000000000",
                 "pond": "000000000000000000000000"
             },
@@ -486,12 +566,12 @@ function getFishData() {
         },
         "Seahorse": {
             "times_string": {
-                "ocean": "5-7am,1-10pm",
+                "ocean": "all day",
                 "river": "-",
                 "pond": "-"
             },
             "times": {
-                "ocean": "000001110000011111111110",
+                "ocean": "111111111111111111111111",
                 "river": "000000000000000000000000",
                 "pond": "000000000000000000000000"
             },
@@ -502,12 +582,12 @@ function getFishData() {
         },
         "Spiny Lobster": {
             "times_string": {
-                "ocean": "2am,12-2pm,11pm",
+                "ocean": "2am,12-2pm,4-7pm,11pm",
                 "river": "-",
                 "pond": "-"
             },
             "times": {
-                "ocean": "001000000000111000000001",
+                "ocean": "001000000000111011110001",
                 "river": "000000000000000000000000",
                 "pond": "000000000000000000000000"
             },
@@ -518,18 +598,18 @@ function getFishData() {
         },
         "Spotted Ray": {
             "times_string": {
-                "ocean": "5-7am,1pm,5pm,9-11pm",
+                "ocean": "12am,5-7am,1pm,5pm,9-11pm",
                 "river": "5-7am,10-11pm",
                 "pond": "-"
             },
             "times": {
-                "ocean": "000001110000010001000111",
+                "ocean": "100001110000010001000111",
                 "river": "000001110000000000000011",
                 "pond": "000000000000000000000000"
             },
-            "rarity": "Uncommon",
-            "worth": "50",
-            "bounty": "250",
+            "rarity": "Rare",
+            "worth": "120",
+            "bounty": "600",
             "img": "spottedray.png"
         },
         "Squid": {
@@ -550,13 +630,13 @@ function getFishData() {
         },
         "Stingray": {
             "times_string": {
-                "ocean": "10am",
-                "river": "-",
+                "ocean": "10-11am",
+                "river": "8am,10am,12pm",
                 "pond": "-"
             },
             "times": {
-                "ocean": "000000000010000000000000",
-                "river": "000000000000000000000000",
+                "ocean": "000000000011000000000000",
+                "river": "000000001010100000000000",
                 "pond": "000000000000000000000000"
             },
             "rarity": "Rare",
@@ -566,12 +646,12 @@ function getFishData() {
         },
         "Sunfish": {
             "times_string": {
-                "ocean": "1pm,3pm,5pm",
+                "ocean": "12am-1pm,3-5pm",
                 "river": "-",
                 "pond": "-"
             },
             "times": {
-                "ocean": "000000000000010101000000",
+                "ocean": "111111111111110111000000",
                 "river": "000000000000000000000000",
                 "pond": "000000000000000000000000"
             },
@@ -582,29 +662,45 @@ function getFishData() {
         },
         "Sunken Bag": {
             "times_string": {
-                "ocean": "1am,3am,5am,1pm,3pm,7pm",
+                "ocean": "12-1am,3am,5am,7am,8am,1pm,3pm,7pm",
                 "river": "-",
                 "pond": "-"
             },
             "times": {
-                "ocean": "010101000000010100010000",
+                "ocean": "110101011000010100010000",
                 "river": "000000000000000000000000",
                 "pond": "000000000000000000000000"
             },
-            "rarity": "Epic",
-            "worth": "250",
+            "rarity": "Common",
+            "worth": "20",
             "bounty": "",
             "img": "sunkenbag.png"
+        },
+        "The Dragon King": {
+            "times_string": {
+                "ocean": "all day, if in newspaper",
+                "river": "-",
+                "pond": "-"
+            },
+            "times": {
+                "ocean": "111111111111111111111111",
+                "river": "000000000000000000000000",
+                "pond": "000000000000000000000000"
+            },
+            "rarity": "Legendary",
+            "worth": "300",
+            "bounty": "1500",
+            "img": "thedragonking.png"
         },
         "Toadfish": {
             "times_string": {
                 "ocean": "3pm,5pm",
-                "river": "3pm,5pm",
+                "river": "1pm-3pm,5pm,9pm-10pm",
                 "pond": "-"
             },
             "times": {
                 "ocean": "000000000000000101000000",
-                "river": "000000000000000101000000",
+                "river": "000000000000011101000110",
                 "pond": "000000000000000000000000"
             },
             "rarity": "Uncommon",
@@ -612,14 +708,30 @@ function getFishData() {
             "bounty": "250",
             "img": "toadfish.png"
         },
-        "Tuna": {
+        "Trigger Fish": {
             "times_string": {
-                "ocean": "10am-5pm,11pm",
+                "ocean": "7am-8am,10am-11am",
                 "river": "-",
                 "pond": "-"
             },
             "times": {
-                "ocean": "000000000011111111000001",
+                "ocean": "000000011011000000000000",
+                "river": "000000000000000000000000",
+                "pond": "000000000000000000000000"
+            },
+            "rarity": "Rare",
+            "worth": "120",
+            "bounty": "600",
+            "img": "triggerfish.png"
+        },
+        "Tuna": {
+            "times_string": {
+                "ocean": "10am-5pm,7pm,11pm",
+                "river": "-",
+                "pond": "-"
+            },
+            "times": {
+                "ocean": "000000000011111111010001",
                 "river": "000000000000000000000000",
                 "pond": "000000000000000000000000"
             },
@@ -631,13 +743,13 @@ function getFishData() {
         "Angelfish": {
             "times_string": {
                 "ocean": "-",
-                "river": "1-2pm,6pm,9pm-4am",
-                "pond": "12-1pm,9pm-4am"
+                "river": "all day",
+                "pond": "-"
             },
             "times": {
                 "ocean": "000000000000000000000000",
-                "river": "111110000000011000100111",
-                "pond": "111110000000110000000111"
+                "river": "111111111111111111111111",
+                "pond": "000000000000000000000000"
             },
             "rarity": "Common",
             "worth": "20",
@@ -647,76 +759,60 @@ function getFishData() {
         "Archer Fish": {
             "times_string": {
                 "ocean": "-",
-                "river": "12-1pm,11pm-5am",
-                "pond": "12-2pm,11pm-5am"
+                "river": "all day",
+                "pond": "-"
             },
             "times": {
                 "ocean": "000000000000000000000000",
-                "river": "111111000000110000000001",
-                "pond": "111111000000111000000001"
+                "river": "111111111111111111111111",
+                "pond": "000000000000000000000000"
             },
             "rarity": "Common",
             "worth": "20",
             "bounty": "100",
             "img": "archerfish.png"
         },
-        "Barb": {
-            "times_string": {
-                "ocean": "-",
-                "river": "12-10am,3-4pm",
-                "pond": "3pm"
-            },
-            "times": {
-                "ocean": "000000000000000000000000",
-                "river": "111111111110000110000000",
-                "pond": "000000000000000100000000"
-            },
-            "rarity": "Common",
-            "worth": "20",
-            "bounty": "100",
-            "img": "barb.png"
-        },
-        "Betta": {
-            "times_string": {
-                "ocean": "-",
-                "river": "12-1am,7am-6pm",
-                "pond": "-"
-            },
-            "times": {
-                "ocean": "000000000000000000000000",
-                "river": "110000011111111111100000",
-                "pond": "000000000000000000000000"
-            },
-            "rarity": "Common",
-            "worth": "20",
-            "bounty": "100",
-            "img": "betta.png"
-        },
         "Bluegill": {
             "times_string": {
                 "ocean": "-",
-                "river": "10am,6-8pm",
+                "river": "all day",
                 "pond": "-"
             },
             "times": {
                 "ocean": "000000000000000000000000",
-                "river": "000000000010000000111000",
+                "river": "111111111111111111111111",
                 "pond": "000000000000000000000000"
             },
-            "rarity": "Uncommon",
-            "worth": "50",
-            "bounty": "250",
+            "rarity": "Common",
+            "worth": "20",
+            "bounty": "100",
             "img": "bluegill.png"
+        },
+        "Bull Shark": {
+            "times_string": {
+                "ocean": "-",
+                "river": "all day, if in newspaper",
+                "pond": "-"
+            },
+            "times": {
+                "ocean": "000000000000000000000000",
+                "river": "111111111111111111111111",
+                "pond": "000000000000000000000000"
+            },
+            "rarity": "Legendary",
+            "worth": "300",
+            "bounty": "1500",
+            "img": "bullshark.png"
         },
         "Caracha": {
             "times_string": {
                 "ocean": "-",
-                "river": "5am,8am,9am,11am,1pm",
+                "river": "all day",
                 "pond": "-"
             },
             "times": {
                 "ocean": "000000000000000000000000",
-                "river": "000001001101010000000000",
+                "river": "111111111111111111111111",
                 "pond": "000000000000000000000000"
             },
             "rarity": "Common",
@@ -743,12 +839,12 @@ function getFishData() {
         "Catfish": {
             "times_string": {
                 "ocean": "-",
-                "river": "8-9am",
+                "river": "2am,8-9am,11am",
                 "pond": "-"
             },
             "times": {
                 "ocean": "000000000000000000000000",
-                "river": "000000001100000000000000",
+                "river": "001000001101000000000000",
                 "pond": "000000000000000000000000"
             },
             "rarity": "Uncommon",
@@ -759,12 +855,12 @@ function getFishData() {
         "Clown Featherback": {
             "times_string": {
                 "ocean": "-",
-                "river": "1am,3am",
+                "river": "1am-5am",
                 "pond": "-"
             },
             "times": {
                 "ocean": "000000000000000000000000",
-                "river": "010100000000000000000000",
+                "river": "011111000000000000000000",
                 "pond": "000000000000000000000000"
             },
             "rarity": "Rare",
@@ -775,12 +871,12 @@ function getFishData() {
         "Crappie": {
             "times_string": {
                 "ocean": "-",
-                "river": "5am,8am,1pm,3pm,6pm",
+                "river": "all day",
                 "pond": "-"
             },
             "times": {
                 "ocean": "000000000000000000000000",
-                "river": "000001001000010100100000",
+                "river": "111111111111111111111111",
                 "pond": "000000000000000000000000"
             },
             "rarity": "Common",
@@ -788,53 +884,21 @@ function getFishData() {
             "bounty": "100",
             "img": "crappie.png"
         },
-        "Crayfish": {
-            "times_string": {
-                "ocean": "-",
-                "river": "12-3am,12-3pm",
-                "pond": "12-3am,12-3pm"
-            },
-            "times": {
-                "ocean": "000000000000000000000000",
-                "river": "111100000000111100000000",
-                "pond": "111100000000111100000000"
-            },
-            "rarity": "Common",
-            "worth": "20",
-            "bounty": "100",
-            "img": "crayfish.png"
-        },
         "Electric Eel": {
             "times_string": {
                 "ocean": "-",
-                "river": "12am,10am-12pm,7-8pm",
+                "river": "10am-12pm,6-8pm,10pm-12am,2am",
                 "pond": "-"
             },
             "times": {
                 "ocean": "000000000000000000000000",
-                "river": "100000000011100000011000",
+                "river": "101000000011100000111011",
                 "pond": "000000000000000000000000"
             },
             "rarity": "Uncommon",
             "worth": "50",
             "bounty": "250",
             "img": "electriceel.png"
-        },
-        "Flying Fox": {
-            "times_string": {
-                "ocean": "-",
-                "river": "8am",
-                "pond": "11am,12am,8am,9am,3pm"
-            },
-            "times": {
-                "ocean": "000000000000000000000000",
-                "river": "000000001000000000000000",
-                "pond": "100000001101000100000000"
-            },
-            "rarity": "Common",
-            "worth": "20",
-            "bounty": "100",
-            "img": "flyingfox.png"
         },
         "Gar": {
             "times_string": {
@@ -855,12 +919,12 @@ function getFishData() {
         "Ghost Knifefish": {
             "times_string": {
                 "ocean": "-",
-                "river": "2pm-3pm,7pm",
+                "river": "2-4pm,5pm,7pm",
                 "pond": "-"
             },
             "times": {
                 "ocean": "000000000000000000000000",
-                "river": "000000000000001100010000",
+                "river": "000000000000001111010000",
                 "pond": "000000000000000000000000"
             },
             "rarity": "Rare",
@@ -884,15 +948,31 @@ function getFishData() {
             "bounty": "1500",
             "img": "giantcatfish.png"
         },
-        "Giant Stingray": {
+        "Giant Clam": {
             "times_string": {
                 "ocean": "-",
-                "river": "5am,10am",
+                "river": "2am,5am",
                 "pond": "-"
             },
             "times": {
                 "ocean": "000000000000000000000000",
-                "river": "000001000010000000000000",
+                "river": "001001000000000000000000",
+                "pond": "000000000000000000000000"
+            },
+            "rarity": "Rare",
+            "worth": "120",
+            "bounty": "600",
+            "img": "giantclam.png"
+        },
+        "Giant Stingray": {
+            "times_string": {
+                "ocean": "-",
+                "river": "all day, if in newspaper",
+                "pond": "-"
+            },
+            "times": {
+                "ocean": "000000000000000000000000",
+                "river": "111111111111111111111111",
                 "pond": "000000000000000000000000"
             },
             "rarity": "Legendary",
@@ -903,12 +983,12 @@ function getFishData() {
         "Golden Dorado": {
             "times_string": {
                 "ocean": "-",
-                "river": "7pm,8pm-11pm",
+                "river": "6pm-11pm",
                 "pond": "-"
             },
             "times": {
                 "ocean": "000000000000000000000000",
-                "river": "000000000000000000011111",
+                "river": "000000000000000000111111",
                 "pond": "000000000000000000000000"
             },
             "rarity": "Rare",
@@ -919,13 +999,13 @@ function getFishData() {
         "Grasscarp": {
             "times_string": {
                 "ocean": "-",
-                "river": "12-6pm,9pm-1am",
-                "pond": "12-5pm,9pm-1am"
+                "river": "all day",
+                "pond": "-"
             },
             "times": {
                 "ocean": "000000000000000000000000",
-                "river": "110000000000111111100111",
-                "pond": "110000000000111111000111"
+                "river": "111111111111111111111111",
+                "pond": "000000000000000000000000"
             },
             "rarity": "Common",
             "worth": "20",
@@ -943,26 +1023,42 @@ function getFishData() {
                 "river": "111111111111111111111111",
                 "pond": "000000000000000000000000"
             },
-            "rarity": "Uncommon",
-            "worth": "50",
-            "bounty": "250",
+            "rarity": "Common",
+            "worth": "20",
+            "bounty": "100",
             "img": "largemouthbass.png"
         },
         "Loach": {
             "times_string": {
                 "ocean": "-",
-                "river": "3am,7am,10pm",
+                "river": "all day",
                 "pond": "-"
             },
             "times": {
                 "ocean": "000000000000000000000000",
-                "river": "000100010000000000000010",
+                "river": "111111111111111111111111",
                 "pond": "000000000000000000000000"
             },
-            "rarity": "Rare",
-            "worth": "120",
-            "bounty": "600",
+            "rarity": "Common",
+            "worth": "20",
+            "bounty": "100",
             "img": "loach.png"
+        },
+        "Lungfish": {
+            "times_string": {
+                "ocean": "-",
+                "river": "5am,11am-12pm,2pm",
+                "pond": "-"
+            },
+            "times": {
+                "ocean": "000000000000000000000000",
+                "river": "000001000001101000000000",
+                "pond": "000000000000000000000000"
+            },
+            "rarity": "Uncommon",
+            "worth": "50",
+            "bounty": "250",
+            "img": "lungfish.png"
         },
         "Mahi Mahi": {
             "times_string": {
@@ -983,13 +1079,13 @@ function getFishData() {
         "Milkfish": {
             "times_string": {
                 "ocean": "-",
-                "river": "8am,1pm",
-                "pond": "7am"
+                "river": "all day",
+                "pond": "-"
             },
             "times": {
                 "ocean": "000000000000000000000000",
-                "river": "000000001000010000000000",
-                "pond": "000000010000000000000000"
+                "river": "111111111111111111111111",
+                "pond": "000000000000000000000000"
             },
             "rarity": "Common",
             "worth": "20",
@@ -999,12 +1095,12 @@ function getFishData() {
         "Minnow": {
             "times_string": {
                 "ocean": "-",
-                "river": "12-4am,11am-2pm",
+                "river": "all day",
                 "pond": "-"
             },
             "times": {
                 "ocean": "000000000000000000000000",
-                "river": "111110000001111000000000",
+                "river": "111111111111111111111111",
                 "pond": "000000000000000000000000"
             },
             "rarity": "Common",
@@ -1031,12 +1127,12 @@ function getFishData() {
         "Perch": {
             "times_string": {
                 "ocean": "-",
-                "river": "2-7am",
+                "river": "2-8am,10am",
                 "pond": "1-7am"
             },
             "times": {
                 "ocean": "000000000000000000000000",
-                "river": "001111110000000000000000",
+                "river": "001111111010000000000000",
                 "pond": "011111110000000000000000"
             },
             "rarity": "Uncommon",
@@ -1095,12 +1191,12 @@ function getFishData() {
         "River Eel": {
             "times_string": {
                 "ocean": "-",
-                "river": "12-3am,8am-12pm,2pm",
+                "river": "12-3am,8am-12pm,2pm,6pm",
                 "pond": "-"
             },
             "times": {
                 "ocean": "000000000000000000000000",
-                "river": "111100001111101000000000",
+                "river": "111100001111101000100000",
                 "pond": "000000000000000000000000"
             },
             "rarity": "Uncommon",
@@ -1111,12 +1207,12 @@ function getFishData() {
         "Rosette": {
             "times_string": {
                 "ocean": "-",
-                "river": "8am,1pm,3pm",
+                "river": "all day",
                 "pond": "-"
             },
             "times": {
                 "ocean": "000000000000000000000000",
-                "river": "000000001000010100000000",
+                "river": "111111111111111111111111",
                 "pond": "000000000000000000000000"
             },
             "rarity": "Common",
@@ -1175,12 +1271,12 @@ function getFishData() {
         "Trout": {
             "times_string": {
                 "ocean": "-",
-                "river": "5-7am,6-7pm",
+                "river": "all day",
                 "pond": "-"
             },
             "times": {
                 "ocean": "000000000000000000000000",
-                "river": "000001110000000000110000",
+                "river": "111111111111111111111111",
                 "pond": "000000000000000000000000"
             },
             "rarity": "Common",
@@ -1191,13 +1287,13 @@ function getFishData() {
         "Vampire Crab": {
             "times_string": {
                 "ocean": "-",
-                "river": "3-5am",
-                "pond": "3-5am"
+                "river": "1am,3-6am,2pm",
+                "pond": "3-5am,1pm"
             },
             "times": {
                 "ocean": "000000000000000000000000",
-                "river": "000111000000000000000000",
-                "pond": "000111000000000000000000"
+                "river": "010111100000001000000000",
+                "pond": "000111000000010000000000"
             },
             "rarity": "Uncommon",
             "worth": "50",
@@ -1240,12 +1336,12 @@ function getFishData() {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "3am,6-7am"
+                "pond": "2-4am,6-7am"
             },
             "times": {
                 "ocean": "000000000000000000000000",
                 "river": "000000000000000000000000",
-                "pond": "000100110000000000000000"
+                "pond": "001110110000000000000000"
             },
             "rarity": "Rare",
             "worth": "120",
@@ -1256,33 +1352,81 @@ function getFishData() {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "9pm-11pm"
+                "pond": "6pm-7pm,9pm-12am"
             },
             "times": {
                 "ocean": "000000000000000000000000",
                 "river": "000000000000000000000000",
-                "pond": "000000000000000000000111"
+                "pond": "100000000000000000110111"
             },
             "rarity": "Rare",
             "worth": "120",
             "bounty": "600",
             "img": "bandedshark.png"
         },
-        "Butterflyfish": {
+        "Barb": {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "8am,9pm"
+                "pond": "12am,2pm-3pm"
             },
             "times": {
                 "ocean": "000000000000000000000000",
                 "river": "000000000000000000000000",
-                "pond": "000000001000000000000100"
+                "pond": "100000000000001100000000"
+            },
+            "rarity": "Uncommon",
+            "worth": "50",
+            "bounty": "250",
+            "img": "barb.png"
+        },
+        "Betta": {
+            "times_string": {
+                "ocean": "-",
+                "river": "-",
+                "pond": "all day"
+            },
+            "times": {
+                "ocean": "000000000000000000000000",
+                "river": "000000000000000000000000",
+                "pond": "111111111111111111111111"
+            },
+            "rarity": "Common",
+            "worth": "20",
+            "bounty": "100",
+            "img": "betta.png"
+        },
+        "Butterflyfish": {
+            "times_string": {
+                "ocean": "-",
+                "river": "-",
+                "pond": "all day, if in newspaper"
+            },
+            "times": {
+                "ocean": "000000000000000000000000",
+                "river": "000000000000000000000000",
+                "pond": "111111111111111111111111"
             },
             "rarity": "Legendary",
             "worth": "300",
             "bounty": "1500",
             "img": "butterflyfish.png"
+        },
+        "Crayfish": {
+            "times_string": {
+                "ocean": "-",
+                "river": "-",
+                "pond": "all day"
+            },
+            "times": {
+                "ocean": "000000000000000000000000",
+                "river": "000000000000000000000000",
+                "pond": "111111111111111111111111"
+            },
+            "rarity": "Common",
+            "worth": "20",
+            "bounty": "100",
+            "img": "crayfish.png"
         },
         "Danio": {
             "times_string": {
@@ -1304,28 +1448,44 @@ function getFishData() {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "3pm,5pm"
+                "pond": "3-5pm,10pm-1am"
             },
             "times": {
                 "ocean": "000000000000000000000000",
                 "river": "000000000000000000000000",
-                "pond": "000000000000000101000000"
+                "pond": "110000000000000111000011"
             },
             "rarity": "Rare",
             "worth": "120",
             "bounty": "600",
             "img": "discus.png"
         },
-        "Fiddler Crab": {
+        "Elephantfish": {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "4-7am,9am"
+                "pond": "7am-8am,11am-2pm"
             },
             "times": {
                 "ocean": "000000000000000000000000",
                 "river": "000000000000000000000000",
-                "pond": "000011110100000000000000"
+                "pond": "000000011001111000000000"
+            },
+            "rarity": "Rare",
+            "worth": "120",
+            "bounty": "600",
+            "img": "elephantfish.png"
+        },
+        "Fiddler Crab": {
+            "times_string": {
+                "ocean": "-",
+                "river": "-",
+                "pond": "1am,4-9am"
+            },
+            "times": {
+                "ocean": "000000000000000000000000",
+                "river": "000000000000000000000000",
+                "pond": "010011111100000000000000"
             },
             "rarity": "Rare",
             "worth": "120",
@@ -1336,28 +1496,44 @@ function getFishData() {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "12am,7am-1pm"
+                "pond": "7am-1pm,2-4pm,6pm"
             },
             "times": {
                 "ocean": "000000000000000000000000",
                 "river": "000000000000000000000000",
-                "pond": "100000011111110000000000"
+                "pond": "000000011111111110100000"
             },
-            "rarity": "Uncommon",
-            "worth": "50",
-            "bounty": "250",
+            "rarity": "Rare",
+            "worth": "120",
+            "bounty": "600",
             "img": "flowerhorn.png"
+        },
+        "Flying Fox": {
+            "times_string": {
+                "ocean": "-",
+                "river": "-",
+                "pond": "all day"
+            },
+            "times": {
+                "ocean": "000000000000000000000000",
+                "river": "000000000000000000000000",
+                "pond": "111111111111111111111111"
+            },
+            "rarity": "Common",
+            "worth": "20",
+            "bounty": "100",
+            "img": "flyingfox.png"
         },
         "Goldfish": {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "1am,7-11am"
+                "pond": "all day"
             },
             "times": {
                 "ocean": "000000000000000000000000",
                 "river": "000000000000000000000000",
-                "pond": "010000011111000000000000"
+                "pond": "111111111111111111111111"
             },
             "rarity": "Common",
             "worth": "20",
@@ -1368,12 +1544,12 @@ function getFishData() {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "7-11pm"
+                "pond": "1pm,4pm,7-11pm"
             },
             "times": {
                 "ocean": "000000000000000000000000",
                 "river": "000000000000000000000000",
-                "pond": "000000000000000000011111"
+                "pond": "000000000000010010011111"
             },
             "rarity": "Uncommon",
             "worth": "50",
@@ -1384,12 +1560,12 @@ function getFishData() {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "12am,11am-2pm"
+                "pond": "all day"
             },
             "times": {
                 "ocean": "000000000000000000000000",
                 "river": "000000000000000000000000",
-                "pond": "100000000001111000000000"
+                "pond": "111111111111111111111111"
             },
             "rarity": "Common",
             "worth": "20",
@@ -1400,16 +1576,16 @@ function getFishData() {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "4-5pm,7-8pm"
+                "pond": "all day"
             },
             "times": {
                 "ocean": "000000000000000000000000",
                 "river": "000000000000000000000000",
-                "pond": "000000000000000011011000"
+                "pond": "111111111111111111111111"
             },
-            "rarity": "Uncommon",
-            "worth": "50",
-            "bounty": "250",
+            "rarity": "Common",
+            "worth": "20",
+            "bounty": "100",
             "img": "hermitcrab.png"
         },
         "Kohaku Koi": {
@@ -1432,12 +1608,12 @@ function getFishData() {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "5am,7am,9am"
+                "pond": "12am,5am,7-10am"
             },
             "times": {
                 "ocean": "000000000000000000000000",
                 "river": "000000000000000000000000",
-                "pond": "000001010100000000000000"
+                "pond": "100001011110000000000000"
             },
             "rarity": "Uncommon",
             "worth": "50",
@@ -1448,12 +1624,12 @@ function getFishData() {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "1am,7-10am,3pm"
+                "pond": "12am-1am,7-10am,12am,3pm,7pm,10pm"
             },
             "times": {
                 "ocean": "000000000000000000000000",
                 "river": "000000000000000000000000",
-                "pond": "010000011110000100000000"
+                "pond": "110000011110000100010010"
             },
             "rarity": "Uncommon",
             "worth": "50",
@@ -1480,12 +1656,12 @@ function getFishData() {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "9am,11am,10pm"
+                "pond": "all day"
             },
             "times": {
                 "ocean": "000000000000000000000000",
                 "river": "000000000000000000000000",
-                "pond": "000000000101000000000010"
+                "pond": "111111111111111111111111"
             },
             "rarity": "Common",
             "worth": "20",
@@ -1496,12 +1672,12 @@ function getFishData() {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "4-11pm"
+                "pond": "all day"
             },
             "times": {
                 "ocean": "000000000000000000000000",
                 "river": "000000000000000000000000",
-                "pond": "000000000000000011111111"
+                "pond": "111111111111111111111111"
             },
             "rarity": "Common",
             "worth": "20",
@@ -1512,28 +1688,44 @@ function getFishData() {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "1am,9am-1pm,9-11pm"
+                "pond": "all day"
             },
             "times": {
                 "ocean": "000000000000000000000000",
                 "river": "000000000000000000000000",
-                "pond": "010000000111110000000111"
+                "pond": "111111111111111111111111"
             },
             "rarity": "Common",
             "worth": "20",
             "bounty": "100",
             "img": "neontetra.png"
         },
-        "Oscar": {
+        "Oarfish": {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "6am-2pm"
+                "pond": "6am-7am,9am-10am,12pm-1pm"
             },
             "times": {
                 "ocean": "000000000000000000000000",
                 "river": "000000000000000000000000",
-                "pond": "000000111111111000000000"
+                "pond": "000000110110110000000000"
+            },
+            "rarity": "Uncommon",
+            "worth": "50",
+            "bounty": "250",
+            "img": "oarfish.png"
+        },
+        "Oscar": {
+            "times_string": {
+                "ocean": "-",
+                "river": "-",
+                "pond": "12am-1am,6am-2pm,4pm"
+            },
+            "times": {
+                "ocean": "000000000000000000000000",
+                "river": "000000000000000000000000",
+                "pond": "110000111111111010000000"
             },
             "rarity": "Uncommon",
             "worth": "50",
@@ -1544,12 +1736,12 @@ function getFishData() {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "5pm"
+                "pond": "8am,10am-1pm,5-7pm,10pm"
             },
             "times": {
                 "ocean": "000000000000000000000000",
                 "river": "000000000000000000000000",
-                "pond": "000000000000000001000000"
+                "pond": "000000001011110001110010"
             },
             "rarity": "Rare",
             "worth": "120",
@@ -1560,12 +1752,12 @@ function getFishData() {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "12am,7am-2pm"
+                "pond": "all day"
             },
             "times": {
                 "ocean": "000000000000000000000000",
                 "river": "000000000000000000000000",
-                "pond": "100000011111111000000000"
+                "pond": "111111111111111111111111"
             },
             "rarity": "Common",
             "worth": "20",
@@ -1576,12 +1768,12 @@ function getFishData() {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "1am,7am,9am,11am,12am,3pm,4pm"
+                "pond": "all day"
             },
             "times": {
                 "ocean": "000000000000000000000000",
                 "river": "000000000000000000000000",
-                "pond": "110000010101000110000000"
+                "pond": "111111111111111111111111"
             },
             "rarity": "Common",
             "worth": "20",
@@ -1592,12 +1784,12 @@ function getFishData() {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "12am,11am-5pm"
+                "pond": "9am,11am-5pm,10pm"
             },
             "times": {
                 "ocean": "000000000000000000000000",
                 "river": "000000000000000000000000",
-                "pond": "100000000001111111000000"
+                "pond": "000000000101111111000010"
             },
             "rarity": "Uncommon",
             "worth": "50",
@@ -1608,12 +1800,12 @@ function getFishData() {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "8am-9am,12pm-1pm,3pm"
+                "pond": "all day, if in newspaper"
             },
             "times": {
                 "ocean": "000000000000000000000000",
                 "river": "000000000000000000000000",
-                "pond": "000000001100110100000000"
+                "pond": "111111111111111111111111"
             },
             "rarity": "Legendary",
             "worth": "300",
@@ -1624,12 +1816,12 @@ function getFishData() {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "1pm"
+                "pond": "all day"
             },
             "times": {
                 "ocean": "000000000000000000000000",
                 "river": "000000000000000000000000",
-                "pond": "000000000000010000000000"
+                "pond": "111111111111111111111111"
             },
             "rarity": "Common",
             "worth": "20",
@@ -1640,12 +1832,12 @@ function getFishData() {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "5-10am"
+                "pond": "5-10am,2pm"
             },
             "times": {
                 "ocean": "000000000000000000000000",
                 "river": "000000000000000000000000",
-                "pond": "000001111110000000000000"
+                "pond": "000001111110001000000000"
             },
             "rarity": "Uncommon",
             "worth": "50",
@@ -1656,12 +1848,12 @@ function getFishData() {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "2pm,5-8pm"
+                "pond": "2pm,4-8pm,10pm"
             },
             "times": {
                 "ocean": "000000000000000000000000",
                 "river": "000000000000000000000000",
-                "pond": "000000000000001001111000"
+                "pond": "000000000000001011111010"
             },
             "rarity": "Rare",
             "worth": "120",
@@ -1672,12 +1864,12 @@ function getFishData() {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "7am,12pm,3pm"
+                "pond": "7-8am,10am-12pm,2pm-3pm"
             },
             "times": {
                 "ocean": "000000000000000000000000",
                 "river": "000000000000000000000000",
-                "pond": "000000010000100100000000"
+                "pond": "000000011011101100000000"
             },
             "rarity": "Uncommon",
             "worth": "50",
@@ -1704,12 +1896,12 @@ function getFishData() {
             "times_string": {
                 "ocean": "-",
                 "river": "-",
-                "pond": "9am,1pm"
+                "pond": "all day"
             },
             "times": {
                 "ocean": "000000000000000000000000",
                 "river": "000000000000000000000000",
-                "pond": "000000000100010000000000"
+                "pond": "111111111111111111111111"
             },
             "rarity": "Common",
             "worth": "20",
